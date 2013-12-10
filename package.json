@@ -1,0 +1,32 @@
+{
+    "name": "rfm12b-node",
+    "description": "Addon to control an RFM12B module connected via SPI",
+    "version": "0.0.1",
+    "keywords": [
+        "spi",
+        "rfm12b",
+        "raspberry pi"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rosterloh/rfm12b-node.git"
+    },
+    "author": {
+        "name": "Richard Osterloh",
+        "email": "richard.osterloh@gmail.com"
+    },
+    "main": "./build/Release/pfio",
+    "engines": {
+        "node": ">= 0.10.17"
+    },
+    "dependencies": {
+        "node-gyp": "0.10.10"
+    },
+    "scripts": {
+        "install": "node-gyp rebuild"
+    },
+    "bugs": {
+        "url": "https://github.com/rosterloh/rfm12b-node/issues"
+    }
+    "private": false
+}
